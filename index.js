@@ -6,7 +6,7 @@ var io = require('socket.io')(http);
 //  res.send('<h1>Hello world</h1>');
 //});
 
-app.get('/', function(req, res){
+app.get('https://git.heroku.com/chatstar.git', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
